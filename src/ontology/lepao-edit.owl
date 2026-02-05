@@ -172,6 +172,7 @@ Declaration(Class(<http://purl.obolibrary.org/obo/LEPAO_0000141>))
 Declaration(Class(<http://purl.obolibrary.org/obo/LEPAO_0000142>))
 Declaration(Class(<http://purl.obolibrary.org/obo/LEPAO_0000143>))
 Declaration(Class(<http://purl.obolibrary.org/obo/LEPAO_0000144>))
+Declaration(Class(<http://purl.obolibrary.org/obo/LEPAO_68e6d7d3_0a5f_4817_99f8_2a5b326efcde>))
 Declaration(Class(<http://purl.obolibrary.org/obo/PATO_0000001>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002134>))
 Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/CLAO_0001602>))
@@ -1077,6 +1078,12 @@ https://doi.org/10.1242/dev.126.11.2309
 
 \"In insects and vertebrates, the equivalent ‘neural’ body sides give rise to a prominent brain and nerve cord\""@en) rdfs:label <http://purl.obolibrary.org/obo/LEPAO_0000144> "neural tube"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/LEPAO_0000144> <http://purl.obolibrary.org/obo/LEPAO_0000006>)
+
+# Class: <http://purl.obolibrary.org/obo/LEPAO_68e6d7d3_0a5f_4817_99f8_2a5b326efcde> (area)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/LEPAO_68e6d7d3_0a5f_4817_99f8_2a5b326efcde> "The anatomical structure of the cuticle that is delimited by material or immaterial anatomical entities.")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/LEPAO_68e6d7d3_0a5f_4817_99f8_2a5b326efcde> "area"@es)
+SubClassOf(<http://purl.obolibrary.org/obo/LEPAO_68e6d7d3_0a5f_4817_99f8_2a5b326efcde> <http://purl.obolibrary.org/obo/UBERON_0001002>)
 
 # Class: <http://purl.obolibrary.org/obo/PATO_0000001> (quality)
 
