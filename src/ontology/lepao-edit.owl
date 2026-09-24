@@ -28,6 +28,7 @@ Annotation(dcterms:license <https://creativecommons.org/licenses/by/4.0/>)
 Annotation(rdfs:comment "The development of LEPAO is supported by the German Research Foundation (DFG grant MO 412/54-1). LEPAO was developed within the framework of the DFG-funded Specialised Information Service Biodiversity Research (BIOfid) in cooperation with the organisation insect-morphology (https://github.com/insect-morphology). This version is further developed by the team of insect-morphology with the Ontology Development Kit for implementation in the ontology for the Anatomy of the Insect SkeletonMuscular system (AISM, https://github.com/insect-morphology/aism)."@en)
 Annotation(owl:versionInfo "2022-12-29"@en)
 
+Declaration(Class(<http://purl.obolibrary.org/obo/BFO_0000001>))
 Declaration(Class(<http://purl.obolibrary.org/obo/LEPAO_0000000>))
 Declaration(Class(<http://purl.obolibrary.org/obo/LEPAO_0000001>))
 Declaration(Class(<http://purl.obolibrary.org/obo/LEPAO_0000002>))
@@ -174,6 +175,12 @@ Declaration(Class(<http://purl.obolibrary.org/obo/LEPAO_0000143>))
 Declaration(Class(<http://purl.obolibrary.org/obo/LEPAO_0000144>))
 Declaration(Class(<http://purl.obolibrary.org/obo/LEPAO_68e6d7d3_0a5f_4817_99f8_2a5b326efcde>))
 Declaration(Class(<http://purl.obolibrary.org/obo/PATO_0000001>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UBERON_0000061>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UBERON_0000062>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UBERON_0000990>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UBERON_0001007>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UBERON_0002530>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UBERON_0010000>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002134>))
 Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/CLAO_0001602>))
 Declaration(AnnotationProperty(dce:publisher))
@@ -253,6 +260,26 @@ Verlag, Stuttgart, New York: 332 pp.
 
 \"Röhrenförmige, sich ständig aufzweigende und verjüngende Einstülpung des Integuments, die dem Gasaustausch dient.\""@de) Annotation(dce:contributor "lagonzalezmo") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2021-09-10") <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AISM_0000091> "Trachee"@de)
 
+# Class: <http://purl.obolibrary.org/obo/AISM_0000174> (region of cuticle)
+
+SubClassOf(<http://purl.obolibrary.org/obo/AISM_0000174> <http://purl.obolibrary.org/obo/UBERON_0001002>)
+
+# Class: <http://purl.obolibrary.org/obo/BFO_0000001> (entity)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/BFO_0000001> "entity"@es)
+
+# Class: <http://purl.obolibrary.org/obo/BSPO_0000070> (anatomical region)
+
+SubClassOf(<http://purl.obolibrary.org/obo/BSPO_0000070> <http://purl.obolibrary.org/obo/UBERON_0000061>)
+
+# Class: <http://purl.obolibrary.org/obo/CARO_0000008> (anatomical line)
+
+SubClassOf(<http://purl.obolibrary.org/obo/CARO_0000008> <http://purl.obolibrary.org/obo/LEPAO_0000007>)
+
+# Class: <http://purl.obolibrary.org/obo/CL_0000000> (cell)
+
+SubClassOf(<http://purl.obolibrary.org/obo/CL_0000000> <http://purl.obolibrary.org/obo/UBERON_0000061>)
+
 # Class: <http://purl.obolibrary.org/obo/LEPAO_0000000> (root node)
 
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/LEPAO_0000000> "root node"@en)
@@ -260,6 +287,7 @@ AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/LEPAO_0000000> "r
 # Class: <http://purl.obolibrary.org/obo/LEPAO_0000001> (muscle tissue)
 
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/LEPAO_0000001> "muscle tissue"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/LEPAO_0000001> <http://purl.obolibrary.org/obo/LEPAO_0000077>)
 
 # Class: <http://purl.obolibrary.org/obo/LEPAO_0000002> (visceral muscle tissue)
 
@@ -286,6 +314,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/LEPAO_0000005> <http://purl.obolibrar
 AnnotationAssertion(Annotation(dce:contributor "lagonzalezmo https://orcid.org/0000-0002-9136-9932"@en) Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2023-01-01"@en) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/LEPAO_0000006> "Biological entity that is either an individual member of a biological species or constitutes the structural organization of an individual member of a biological species."@en)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/LEPAO_0000006> "UBERON:0001062"@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/LEPAO_0000006> "anatomical entity"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/LEPAO_0000006> <http://purl.obolibrary.org/obo/BFO_0000001>)
 
 # Class: <http://purl.obolibrary.org/obo/LEPAO_0000007> (immaterial anatomical entity)
 
@@ -342,7 +371,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/LEPAO_0000016> <http://purl.obolibrar
 # Class: <http://purl.obolibrary.org/obo/LEPAO_0000017> (artery)
 
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/LEPAO_0000017> "artery"@en)
-SubClassOf(<http://purl.obolibrary.org/obo/LEPAO_0000017> <http://purl.obolibrary.org/obo/LEPAO_0000006>)
+SubClassOf(<http://purl.obolibrary.org/obo/LEPAO_0000017> <http://purl.obolibrary.org/obo/LEPAO_0000020>)
 SubClassOf(<http://purl.obolibrary.org/obo/LEPAO_0000017> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/LEPAO_0000142>))
 
 # Class: <http://purl.obolibrary.org/obo/LEPAO_0000018> (antennal artery)
@@ -360,7 +389,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/LEPAO_0000019> <http://purl.obolibrar
 AnnotationAssertion(Annotation(dce:contributor "lagonzalezmo https://orcid.org/0000-0002-9136-9932"@en) Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2023-01-01"@en) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/LEPAO_0000020> "The anatomical structure which is part of the hemolymph vascular system and consists of a vascular wall and a vascular lumen."@en)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/LEPAO_0000020> "OARCS:0000000"@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/LEPAO_0000020> "vessel"@en)
-SubClassOf(<http://purl.obolibrary.org/obo/LEPAO_0000020> <http://purl.obolibrary.org/obo/LEPAO_0000006>)
+SubClassOf(<http://purl.obolibrary.org/obo/LEPAO_0000020> <http://purl.obolibrary.org/obo/UBERON_0010000>)
 SubClassOf(<http://purl.obolibrary.org/obo/LEPAO_0000020> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/LEPAO_0000142>))
 
 # Class: <http://purl.obolibrary.org/obo/LEPAO_0000021> (cephalic vessel)
@@ -420,7 +449,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/LEPAO_0000029> <http://purl.obolibrar
 
 AnnotationAssertion(Annotation(dce:contributor "lagonzalezmo") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2021-09-10") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/LEPAO_0000030> "A proximal-distal subdivision of the digestive tract."@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/LEPAO_0000030> "subdivision of digestive tract"@en)
-SubClassOf(<http://purl.obolibrary.org/obo/LEPAO_0000030> <http://purl.obolibrary.org/obo/LEPAO_0000006>)
+SubClassOf(<http://purl.obolibrary.org/obo/LEPAO_0000030> <http://purl.obolibrary.org/obo/UBERON_0001555>)
 
 # Class: <http://purl.obolibrary.org/obo/LEPAO_0000031> (galeal trachea)
 
@@ -538,7 +567,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/LEPAO_0000051> <http://purl.obolibrar
 # Class: <http://purl.obolibrary.org/obo/LEPAO_0000052> (tissue)
 
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/LEPAO_0000052> "tissue"@en)
-SubClassOf(<http://purl.obolibrary.org/obo/LEPAO_0000052> <http://purl.obolibrary.org/obo/LEPAO_0000006>)
+SubClassOf(<http://purl.obolibrary.org/obo/LEPAO_0000052> <http://purl.obolibrary.org/obo/UBERON_0010000>)
 
 # Class: <http://purl.obolibrary.org/obo/LEPAO_0000053> (epithelium)
 
@@ -647,14 +676,14 @@ SubClassOf(<http://purl.obolibrary.org/obo/LEPAO_0000071> <http://purl.obolibrar
 # Class: <http://purl.obolibrary.org/obo/LEPAO_0000072> (neuron)
 
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/LEPAO_0000072> "neuron"@en)
-SubClassOf(<http://purl.obolibrary.org/obo/LEPAO_0000072> <http://purl.obolibrary.org/obo/LEPAO_0000006>)
+SubClassOf(<http://purl.obolibrary.org/obo/LEPAO_0000072> <http://purl.obolibrary.org/obo/LEPAO_0000086>)
 
 # Class: <http://purl.obolibrary.org/obo/LEPAO_0000073> (ganglion)
 
 AnnotationAssertion(Annotation(dce:contributor "lagonzalezmo https://orcid.org/0000-0002-9136-9932"@en) Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2023-01-01"@en) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/LEPAO_0000073> "A biological tissue mass, most commonly a mass of nerve cell bodies."@en)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/LEPAO_0000073> "UBERON:0000045"@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/LEPAO_0000073> "ganglion"@en)
-SubClassOf(<http://purl.obolibrary.org/obo/LEPAO_0000073> <http://purl.obolibrary.org/obo/LEPAO_0000006>)
+SubClassOf(<http://purl.obolibrary.org/obo/LEPAO_0000073> <http://purl.obolibrary.org/obo/LEPAO_0000086>)
 SubClassOf(<http://purl.obolibrary.org/obo/LEPAO_0000073> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/LEPAO_0000086>))
 
 # Class: <http://purl.obolibrary.org/obo/LEPAO_0000074> (thoracic ganglion)
@@ -677,7 +706,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/LEPAO_0000076> <http://purl.obolibrar
 AnnotationAssertion(Annotation(dce:contributor "lagonzalezmo https://orcid.org/0000-0002-9136-9932"@en) Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2023-01-01"@en) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/LEPAO_0000077> "Multicellular, connected anatomical structure that has multiple organs as parts and whose parts work together to achieve some shared function."@en)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/LEPAO_0000077> "UBERON:0000467"@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/LEPAO_0000077> "anatomical system"@en)
-SubClassOf(<http://purl.obolibrary.org/obo/LEPAO_0000077> <http://purl.obolibrary.org/obo/LEPAO_0000006>)
+SubClassOf(<http://purl.obolibrary.org/obo/LEPAO_0000077> <http://purl.obolibrary.org/obo/UBERON_0000061>)
 
 # Class: <http://purl.obolibrary.org/obo/LEPAO_0000078> (integumental system)
 
@@ -767,7 +796,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/LEPAO_0000089> ObjectSomeValuesFrom(<
 # Class: <http://purl.obolibrary.org/obo/LEPAO_0000090> (nerve)
 
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/LEPAO_0000090> "nerve"@en)
-SubClassOf(<http://purl.obolibrary.org/obo/LEPAO_0000090> <http://purl.obolibrary.org/obo/LEPAO_0000006>)
+SubClassOf(<http://purl.obolibrary.org/obo/LEPAO_0000090> <http://purl.obolibrary.org/obo/LEPAO_0000086>)
 SubClassOf(<http://purl.obolibrary.org/obo/LEPAO_0000090> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/LEPAO_0000086>))
 
 # Class: <http://purl.obolibrary.org/obo/LEPAO_0000091> (antennal nerve)
@@ -828,7 +857,7 @@ AnnotationAssertion(Annotation(dce:contributor "lagonzalezmo https://orcid.org/0
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/LEPAO_0000099> "UBERON:0001057")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/LEPAO_0000099> "corpus allatum")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/LEPAO_0000099> "corpora allata"@en)
-SubClassOf(<http://purl.obolibrary.org/obo/LEPAO_0000099> <http://purl.obolibrary.org/obo/LEPAO_0000006>)
+SubClassOf(<http://purl.obolibrary.org/obo/LEPAO_0000099> <http://purl.obolibrary.org/obo/UBERON_0002530>)
 SubClassOf(<http://purl.obolibrary.org/obo/LEPAO_0000099> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/LEPAO_0000098>))
 
 # Class: <http://purl.obolibrary.org/obo/LEPAO_0000100> (corpora cardiaca)
@@ -836,7 +865,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/LEPAO_0000099> ObjectSomeValuesFrom(<
 AnnotationAssertion(Annotation(dce:contributor "lagonzalezmo https://orcid.org/0000-0002-9136-9932"@en) Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2023-01-01"@en) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/LEPAO_0000100> "One of a pair of neurohemal organs located on the walls of the aorta just behind the brain. The corpora cardiaca release their store of PTTH only after they receive a signal from neurosecretory cells in the brain."@en)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/LEPAO_0000100> "UBERON:0001056"@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/LEPAO_0000100> "corpora cardiaca"@en)
-SubClassOf(<http://purl.obolibrary.org/obo/LEPAO_0000100> <http://purl.obolibrary.org/obo/LEPAO_0000006>)
+SubClassOf(<http://purl.obolibrary.org/obo/LEPAO_0000100> <http://purl.obolibrary.org/obo/UBERON_0002530>)
 SubClassOf(<http://purl.obolibrary.org/obo/LEPAO_0000100> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/LEPAO_0000098>))
 
 # Class: <http://purl.obolibrary.org/obo/LEPAO_0000101> (connective tissue)
@@ -862,7 +891,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/LEPAO_0000104> <http://purl.obolibrar
 # Class: <http://purl.obolibrary.org/obo/LEPAO_0000105> (neuropil)
 
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/LEPAO_0000105> "neuropil"@en)
-SubClassOf(<http://purl.obolibrary.org/obo/LEPAO_0000105> <http://purl.obolibrary.org/obo/LEPAO_0000006>)
+SubClassOf(<http://purl.obolibrary.org/obo/LEPAO_0000105> <http://purl.obolibrary.org/obo/LEPAO_0000086>)
 
 # Class: <http://purl.obolibrary.org/obo/LEPAO_0000106> (Synapse-rich neuropil)
 
@@ -1077,7 +1106,7 @@ AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/AISM_0000171> "Ar
 https://doi.org/10.1242/dev.126.11.2309
 
 \"In insects and vertebrates, the equivalent ‘neural’ body sides give rise to a prominent brain and nerve cord\""@en) rdfs:label <http://purl.obolibrary.org/obo/LEPAO_0000144> "neural tube"@en)
-SubClassOf(<http://purl.obolibrary.org/obo/LEPAO_0000144> <http://purl.obolibrary.org/obo/LEPAO_0000006>)
+SubClassOf(<http://purl.obolibrary.org/obo/LEPAO_0000144> <http://purl.obolibrary.org/obo/LEPAO_0000086>)
 
 # Class: <http://purl.obolibrary.org/obo/LEPAO_68e6d7d3_0a5f_4817_99f8_2a5b326efcde> (area)
 
@@ -1089,6 +1118,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/LEPAO_68e6d7d3_0a5f_4817_99f8_2a5b326
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PATO_0000001> "A dependent entity that inheres in a bearer by virtue of how the bearer is related to other entities [database_cross_reference: PATOC:GVG]"@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PATO_0000001> "quality"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/PATO_0000001> <http://purl.obolibrary.org/obo/BFO_0000001>)
 
 # Class: <http://purl.obolibrary.org/obo/PATO_0000052> (shape)
 
@@ -1122,11 +1152,34 @@ SubClassOf(<http://purl.obolibrary.org/obo/PATO_0002078> <http://purl.obolibrary
 
 SubClassOf(<http://purl.obolibrary.org/obo/PATO_0040024> <http://purl.obolibrary.org/obo/PATO_0000001>)
 
+# Class: <http://purl.obolibrary.org/obo/UBERON_0000061> (anatomical structure)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UBERON_0000061> "anatomical structure"@es)
+SubClassOf(<http://purl.obolibrary.org/obo/UBERON_0000061> <http://purl.obolibrary.org/obo/LEPAO_0000006>)
+
+# Class: <http://purl.obolibrary.org/obo/UBERON_0000062> (organ)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UBERON_0000062> "organ"@es)
+SubClassOf(<http://purl.obolibrary.org/obo/UBERON_0000062> <http://purl.obolibrary.org/obo/LEPAO_0000077>)
+
+# Class: <http://purl.obolibrary.org/obo/UBERON_0000165> (mouth)
+
+SubClassOf(<http://purl.obolibrary.org/obo/UBERON_0000165> <http://purl.obolibrary.org/obo/LEPAO_0000030>)
+
 # Class: <http://purl.obolibrary.org/obo/UBERON_0000955> (brain)
 
 AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/UBERON_0000955> "This term is considered as a synonym of cephalic ganglia, however, brain is generalizable term."@en)
-SubClassOf(<http://purl.obolibrary.org/obo/UBERON_0000955> <http://purl.obolibrary.org/obo/LEPAO_0000006>)
+SubClassOf(<http://purl.obolibrary.org/obo/UBERON_0000955> <http://purl.obolibrary.org/obo/LEPAO_0000086>)
 SubClassOf(<http://purl.obolibrary.org/obo/UBERON_0000955> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/LEPAO_0000086>))
+
+# Class: <http://purl.obolibrary.org/obo/UBERON_0000990> (reproductive system)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UBERON_0000990> "reproductive system"@es)
+SubClassOf(<http://purl.obolibrary.org/obo/UBERON_0000990> <http://purl.obolibrary.org/obo/LEPAO_0000077>)
+
+# Class: <http://purl.obolibrary.org/obo/UBERON_0000993> (oviduct)
+
+SubClassOf(<http://purl.obolibrary.org/obo/UBERON_0000993> <http://purl.obolibrary.org/obo/UBERON_0000990>)
 
 # Class: <http://purl.obolibrary.org/obo/UBERON_0001002> (cuticle)
 
@@ -1136,11 +1189,38 @@ Verlag, Stuttgart, New York: 332 pp.
 \"  Distales nichtzelliges Produkt der Epidermis.\""@de) Annotation(dce:contributor "lagonzalezmo") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2021-08-02") <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/UBERON_0001002> "Kutikula"@de)
 SubClassOf(<http://purl.obolibrary.org/obo/UBERON_0001002> <http://purl.obolibrary.org/obo/LEPAO_0000014>)
 
+# Class: <http://purl.obolibrary.org/obo/UBERON_0001007> (digestive system)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UBERON_0001007> "digestive system"@es)
+SubClassOf(<http://purl.obolibrary.org/obo/UBERON_0001007> <http://purl.obolibrary.org/obo/LEPAO_0000077>)
+
 # Class: <http://purl.obolibrary.org/obo/UBERON_0001134> (skeletal muscle tissue)
 
 AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/AISM_0000171> "Seifert G (1995) Entomologisches Praktikum. 3. Auflage. G. Thieme
 Verlag, Stuttgart, New York: 332 pp."@de) <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/UBERON_0001134> "Skelettmuskeln"@de)
 SubClassOf(<http://purl.obolibrary.org/obo/UBERON_0001134> <http://purl.obolibrary.org/obo/LEPAO_0000001>)
+
+# Class: <http://purl.obolibrary.org/obo/UBERON_0001555> (digestive tract)
+
+SubClassOf(<http://purl.obolibrary.org/obo/UBERON_0001555> <http://purl.obolibrary.org/obo/UBERON_0001007>)
+
+# Class: <http://purl.obolibrary.org/obo/UBERON_0002530> (gland)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UBERON_0002530> "gland"@es)
+SubClassOf(<http://purl.obolibrary.org/obo/UBERON_0002530> <http://purl.obolibrary.org/obo/UBERON_0000062>)
+
+# Class: <http://purl.obolibrary.org/obo/UBERON_0004175> (internal genitalia)
+
+SubClassOf(<http://purl.obolibrary.org/obo/UBERON_0004175> <http://purl.obolibrary.org/obo/UBERON_0000990>)
+
+# Class: <http://purl.obolibrary.org/obo/UBERON_0010000> (multicellular anatomical structure)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UBERON_0010000> "multicellular anatomical structure"@es)
+SubClassOf(<http://purl.obolibrary.org/obo/UBERON_0010000> <http://purl.obolibrary.org/obo/UBERON_0000061>)
+
+# Class: <http://purl.obolibrary.org/obo/UBERON_0034925> (anatomical collection)
+
+SubClassOf(<http://purl.obolibrary.org/obo/UBERON_0034925> <http://purl.obolibrary.org/obo/LEPAO_0000006>)
 
 # Class: <http://purl.obolibrary.org/obo/UBERON_6007284> (insect region of integument)
 

@@ -24024,7 +24024,7 @@ https://doi.org/10.1515/9783110264043
     <!-- http://purl.obolibrary.org/obo/AISM_0004079 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/AISM_0004079">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/AISM_0000174"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002530"/>
         <rdfs:subClassOf rdf:nodeID="genid3652"/>
         <rdfs:subClassOf rdf:nodeID="genid3654"/>
         <obo:IAO_0000115 xml:lang="en">The region of the cuticle that is part of the oviduct and attached to the spermatheca.</obo:IAO_0000115>
@@ -24041,7 +24041,7 @@ https://doi.org/10.1515/9783110264043
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/AISM_0004079"/>
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
-        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/AISM_0000174"/>
+        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002530"/>
         <dc:contributor>jgiron https://orcid.org/0000-0002-0851-6883</dc:contributor>
     </owl:Axiom>
     <owl:Axiom>
@@ -34969,7 +34969,7 @@ https://doi.org/10.1515/9783110264043
     <!-- http://purl.obolibrary.org/obo/AISM_0004235 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/AISM_0004235">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/AISM_0000174"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002530"/>
         <rdfs:subClassOf rdf:nodeID="genid5550"/>
         <obo:IAO_0000115 xml:lang="en">The region of cuticle that is continuous with glandular epithelial cells.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">ectodermal gland</rdfs:label>
@@ -34981,7 +34981,7 @@ https://doi.org/10.1515/9783110264043
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/AISM_0004235"/>
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
-        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/AISM_0000174"/>
+        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002530"/>
         <dc:contributor>jgiron https://orcid.org/0000-0002-0851-6883</dc:contributor>
     </owl:Axiom>
     <owl:Axiom>
@@ -41722,6 +41722,12 @@ https://doi.org/10.1515/9783110264043
         <owl:annotatedTarget>enteric tract</owl:annotatedTarget>
         <oboInOwl:hasDbXref>ZFA:0000112</oboInOwl:hasDbXref>
     </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0002530 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0002530"/>
     
 
 
