@@ -173,8 +173,16 @@ Declaration(Class(<http://purl.obolibrary.org/obo/LEPAO_0000141>))
 Declaration(Class(<http://purl.obolibrary.org/obo/LEPAO_0000142>))
 Declaration(Class(<http://purl.obolibrary.org/obo/LEPAO_0000143>))
 Declaration(Class(<http://purl.obolibrary.org/obo/LEPAO_0000144>))
+Declaration(Class(<http://purl.obolibrary.org/obo/LEPAO_0000145>))
+Declaration(Class(<http://purl.obolibrary.org/obo/LEPAO_0000146>))
+Declaration(Class(<http://purl.obolibrary.org/obo/LEPAO_0000147>))
+Declaration(Class(<http://purl.obolibrary.org/obo/LEPAO_0000148>))
+Declaration(Class(<http://purl.obolibrary.org/obo/LEPAO_0000149>))
+Declaration(Class(<http://purl.obolibrary.org/obo/LEPAO_0000150>))
+Declaration(Class(<http://purl.obolibrary.org/obo/LEPAO_0000151>))
 Declaration(Class(<http://purl.obolibrary.org/obo/LEPAO_68e6d7d3_0a5f_4817_99f8_2a5b326efcde>))
 Declaration(Class(<http://purl.obolibrary.org/obo/PATO_0000001>))
+Declaration(Class(<http://purl.obolibrary.org/obo/PATO_0000019>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UBERON_0000061>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UBERON_0000062>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UBERON_0000990>))
@@ -1108,6 +1116,41 @@ https://doi.org/10.1242/dev.126.11.2309
 \"In insects and vertebrates, the equivalent ‘neural’ body sides give rise to a prominent brain and nerve cord\""@en) rdfs:label <http://purl.obolibrary.org/obo/LEPAO_0000144> "neural tube"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/LEPAO_0000144> <http://purl.obolibrary.org/obo/LEPAO_0000086>)
 
+# Class: <http://purl.obolibrary.org/obo/LEPAO_0000145> (inner postdiscal series)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/LEPAO_0000145> "inner postdiscal series"@es)
+SubClassOf(<http://purl.obolibrary.org/obo/LEPAO_0000145> <http://purl.obolibrary.org/obo/PATO_0000019>)
+
+# Class: <http://purl.obolibrary.org/obo/LEPAO_0000146> (outer postdiscal series)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/LEPAO_0000146> "outer postdiscal series"@es)
+SubClassOf(<http://purl.obolibrary.org/obo/LEPAO_0000146> <http://purl.obolibrary.org/obo/PATO_0000019>)
+
+# Class: <http://purl.obolibrary.org/obo/LEPAO_0000147> (inner submarginal series)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/LEPAO_0000147> "inner submarginal series"@es)
+SubClassOf(<http://purl.obolibrary.org/obo/LEPAO_0000147> <http://purl.obolibrary.org/obo/PATO_0000019>)
+
+# Class: <http://purl.obolibrary.org/obo/LEPAO_0000148> (outer submarginal series)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/LEPAO_0000148> "outer submarginal series"@es)
+SubClassOf(<http://purl.obolibrary.org/obo/LEPAO_0000148> <http://purl.obolibrary.org/obo/PATO_0000019>)
+
+# Class: <http://purl.obolibrary.org/obo/LEPAO_0000149> (postdiscal band)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/LEPAO_0000149> "postdiscal band"@es)
+SubClassOf(<http://purl.obolibrary.org/obo/LEPAO_0000149> <http://purl.obolibrary.org/obo/PATO_0000019>)
+
+# Class: <http://purl.obolibrary.org/obo/LEPAO_0000150> (upper postdiscal band)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/LEPAO_0000150> "upper postdiscal band"@es)
+SubClassOf(<http://purl.obolibrary.org/obo/LEPAO_0000150> <http://purl.obolibrary.org/obo/LEPAO_0000149>)
+
+# Class: <http://purl.obolibrary.org/obo/LEPAO_0000151> (lower postdiscal band)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/LEPAO_0000151> "lower postdiscal band"@es)
+SubClassOf(<http://purl.obolibrary.org/obo/LEPAO_0000151> <http://purl.obolibrary.org/obo/LEPAO_0000149>)
+
 # Class: <http://purl.obolibrary.org/obo/LEPAO_68e6d7d3_0a5f_4817_99f8_2a5b326efcde> (area)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/LEPAO_68e6d7d3_0a5f_4817_99f8_2a5b326efcde> "The anatomical structure of the cuticle that is delimited by material or immaterial anatomical entities.")
@@ -1119,6 +1162,11 @@ SubClassOf(<http://purl.obolibrary.org/obo/LEPAO_68e6d7d3_0a5f_4817_99f8_2a5b326
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PATO_0000001> "A dependent entity that inheres in a bearer by virtue of how the bearer is related to other entities [database_cross_reference: PATOC:GVG]"@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PATO_0000001> "quality"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/PATO_0000001> <http://purl.obolibrary.org/obo/BFO_0000001>)
+
+# Class: <http://purl.obolibrary.org/obo/PATO_0000019> (color pattern)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PATO_0000019> "color pattern"@es)
+SubClassOf(<http://purl.obolibrary.org/obo/PATO_0000019> <http://purl.obolibrary.org/obo/PATO_0000001>)
 
 # Class: <http://purl.obolibrary.org/obo/PATO_0000052> (shape)
 
