@@ -29,6 +29,8 @@ Annotation(rdfs:comment "The development of LEPAO is supported by the German Res
 Annotation(owl:versionInfo "2022-12-29"@en)
 
 Declaration(Class(<http://purl.obolibrary.org/obo/BFO_0000001>))
+Declaration(Class(<http://purl.obolibrary.org/obo/BSPO_0000054>))
+Declaration(Class(<http://purl.obolibrary.org/obo/HAO_0000510>))
 Declaration(Class(<http://purl.obolibrary.org/obo/LEPAO_0000000>))
 Declaration(Class(<http://purl.obolibrary.org/obo/LEPAO_0000001>))
 Declaration(Class(<http://purl.obolibrary.org/obo/LEPAO_0000002>))
@@ -180,9 +182,16 @@ Declaration(Class(<http://purl.obolibrary.org/obo/LEPAO_0000148>))
 Declaration(Class(<http://purl.obolibrary.org/obo/LEPAO_0000149>))
 Declaration(Class(<http://purl.obolibrary.org/obo/LEPAO_0000150>))
 Declaration(Class(<http://purl.obolibrary.org/obo/LEPAO_0000151>))
-Declaration(Class(<http://purl.obolibrary.org/obo/LEPAO_68e6d7d3_0a5f_4817_99f8_2a5b326efcde>))
+Declaration(Class(<http://purl.obolibrary.org/obo/LEPAO_0000152>))
+Declaration(Class(<http://purl.obolibrary.org/obo/LEPAO_0000153>))
+Declaration(Class(<http://purl.obolibrary.org/obo/LEPAO_0000154>))
+Declaration(Class(<http://purl.obolibrary.org/obo/LEPAO_0000155>))
+Declaration(Class(<http://purl.obolibrary.org/obo/LEPAO_0000156>))
+Declaration(Class(<http://purl.obolibrary.org/obo/LEPAO_0000157>))
 Declaration(Class(<http://purl.obolibrary.org/obo/PATO_0000001>))
+Declaration(Class(<http://purl.obolibrary.org/obo/PATO_0000014>))
 Declaration(Class(<http://purl.obolibrary.org/obo/PATO_0000019>))
+Declaration(Class(<http://purl.obolibrary.org/obo/PATO_0001300>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UBERON_0000061>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UBERON_0000062>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UBERON_0000990>))
@@ -276,6 +285,11 @@ SubClassOf(<http://purl.obolibrary.org/obo/AISM_0000174> <http://purl.obolibrary
 
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/BFO_0000001> "entity"@es)
 
+# Class: <http://purl.obolibrary.org/obo/BSPO_0000054> (anatomical side)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/BSPO_0000054> "anatomical side"@es)
+SubClassOf(<http://purl.obolibrary.org/obo/BSPO_0000054> <http://purl.obolibrary.org/obo/BSPO_0000070>)
+
 # Class: <http://purl.obolibrary.org/obo/BSPO_0000070> (anatomical region)
 
 SubClassOf(<http://purl.obolibrary.org/obo/BSPO_0000070> <http://purl.obolibrary.org/obo/UBERON_0000061>)
@@ -287,6 +301,11 @@ SubClassOf(<http://purl.obolibrary.org/obo/CARO_0000008> <http://purl.obolibrary
 # Class: <http://purl.obolibrary.org/obo/CL_0000000> (cell)
 
 SubClassOf(<http://purl.obolibrary.org/obo/CL_0000000> <http://purl.obolibrary.org/obo/UBERON_0000061>)
+
+# Class: <http://purl.obolibrary.org/obo/HAO_0000510> (margin)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HAO_0000510> "margin"@es)
+SubClassOf(<http://purl.obolibrary.org/obo/HAO_0000510> <http://purl.obolibrary.org/obo/UBERON_0000061>)
 
 # Class: <http://purl.obolibrary.org/obo/LEPAO_0000000> (root node)
 
@@ -1151,17 +1170,47 @@ SubClassOf(<http://purl.obolibrary.org/obo/LEPAO_0000150> <http://purl.obolibrar
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/LEPAO_0000151> "lower postdiscal band"@es)
 SubClassOf(<http://purl.obolibrary.org/obo/LEPAO_0000151> <http://purl.obolibrary.org/obo/LEPAO_0000149>)
 
-# Class: <http://purl.obolibrary.org/obo/LEPAO_68e6d7d3_0a5f_4817_99f8_2a5b326efcde> (area)
+# Class: <http://purl.obolibrary.org/obo/LEPAO_0000152> (area)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/LEPAO_68e6d7d3_0a5f_4817_99f8_2a5b326efcde> "The anatomical structure of the cuticle that is delimited by material or immaterial anatomical entities.")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/LEPAO_68e6d7d3_0a5f_4817_99f8_2a5b326efcde> "area"@es)
-SubClassOf(<http://purl.obolibrary.org/obo/LEPAO_68e6d7d3_0a5f_4817_99f8_2a5b326efcde> <http://purl.obolibrary.org/obo/UBERON_0001002>)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/LEPAO_0000152> "The anatomical structure of the cuticle that is delimited by material or immaterial anatomical entities.")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/LEPAO_0000152> "area"@es)
+SubClassOf(<http://purl.obolibrary.org/obo/LEPAO_0000152> <http://purl.obolibrary.org/obo/UBERON_0000061>)
+
+# Class: <http://purl.obolibrary.org/obo/LEPAO_0000153> (basal area)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/LEPAO_0000153> "basal area"@es)
+SubClassOf(<http://purl.obolibrary.org/obo/LEPAO_0000153> <http://purl.obolibrary.org/obo/LEPAO_0000152>)
+
+# Class: <http://purl.obolibrary.org/obo/LEPAO_0000154> (dorsal side)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/LEPAO_0000154> "dorsal side"@es)
+SubClassOf(<http://purl.obolibrary.org/obo/LEPAO_0000154> <http://purl.obolibrary.org/obo/BSPO_0000054>)
+
+# Class: <http://purl.obolibrary.org/obo/LEPAO_0000155> (ventral side)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/LEPAO_0000155> "ventral side"@es)
+SubClassOf(<http://purl.obolibrary.org/obo/LEPAO_0000155> <http://purl.obolibrary.org/obo/BSPO_0000054>)
+
+# Class: <http://purl.obolibrary.org/obo/LEPAO_0000156> (spot)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/LEPAO_0000156> "spot"@es)
+SubClassOf(<http://purl.obolibrary.org/obo/LEPAO_0000156> <http://purl.obolibrary.org/obo/LEPAO_0000152>)
+
+# Class: <http://purl.obolibrary.org/obo/LEPAO_0000157> (band)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/LEPAO_0000157> "band"@es)
+SubClassOf(<http://purl.obolibrary.org/obo/LEPAO_0000157> <http://purl.obolibrary.org/obo/LEPAO_0000152>)
 
 # Class: <http://purl.obolibrary.org/obo/PATO_0000001> (quality)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PATO_0000001> "A dependent entity that inheres in a bearer by virtue of how the bearer is related to other entities [database_cross_reference: PATOC:GVG]"@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PATO_0000001> "quality"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/PATO_0000001> <http://purl.obolibrary.org/obo/BFO_0000001>)
+
+# Class: <http://purl.obolibrary.org/obo/PATO_0000014> (color)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PATO_0000014> "color"@es)
+SubClassOf(<http://purl.obolibrary.org/obo/PATO_0000014> <http://purl.obolibrary.org/obo/PATO_0001300>)
 
 # Class: <http://purl.obolibrary.org/obo/PATO_0000019> (color pattern)
 
@@ -1187,6 +1236,11 @@ SubClassOf(<http://purl.obolibrary.org/obo/PATO_0000984> <http://purl.obolibrary
 # Class: <http://purl.obolibrary.org/obo/PATO_0001031> (elasticity)
 
 SubClassOf(<http://purl.obolibrary.org/obo/PATO_0001031> <http://purl.obolibrary.org/obo/PATO_0000001>)
+
+# Class: <http://purl.obolibrary.org/obo/PATO_0001300> (optical quality)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PATO_0001300> "optical quality"@es)
+SubClassOf(<http://purl.obolibrary.org/obo/PATO_0001300> <http://purl.obolibrary.org/obo/PATO_0000001>)
 
 # Class: <http://purl.obolibrary.org/obo/PATO_0001543> (flexibility)
 

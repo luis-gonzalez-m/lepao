@@ -35353,7 +35353,7 @@ https://ipmhouse.tamu.edu/files/2021/03/The-Torre-Bueno-Glossary-of-Entomology.p
     <!-- http://purl.obolibrary.org/obo/AISM_0004242 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/AISM_0004242">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/LEPAO_68e6d7d3_0a5f_4817_99f8_2a5b326efcde"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BSPO_0000070"/>
         <rdfs:subClassOf rdf:nodeID="genid5607"/>
         <rdfs:subClassOf rdf:nodeID="genid5609"/>
         <rdfs:subClassOf rdf:nodeID="genid5611"/>
@@ -35385,7 +35385,7 @@ https://ipmhouse.tamu.edu/files/2021/03/The-Torre-Bueno-Glossary-of-Entomology.p
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/AISM_0004242"/>
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
-        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/LEPAO_68e6d7d3_0a5f_4817_99f8_2a5b326efcde"/>
+        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/BSPO_0000070"/>
         <dc:contributor>jgiron https://orcid.org/0000-0002-0851-6883</dc:contributor>
     </owl:Axiom>
     <owl:Axiom>
@@ -39782,7 +39782,7 @@ https://doi.org/10.1515/9783110264043
     <!-- http://purl.obolibrary.org/obo/BSPO_0000000 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/BSPO_0000000">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BSPO_0000070"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BSPO_0000054"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BSPO_0000110"/>
@@ -39805,7 +39805,7 @@ https://doi.org/10.1515/9783110264043
     <!-- http://purl.obolibrary.org/obo/BSPO_0000007 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/BSPO_0000007">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BSPO_0000070"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BSPO_0000054"/>
         <obo:IAO_0000115>The side of an organism that is right of the sagittal plane.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>right</oboInOwl:hasExactSynonym>
         <rdfs:label>right side</rdfs:label>
@@ -39916,10 +39916,16 @@ https://doi.org/10.1515/9783110264043
     
 
 
+    <!-- http://purl.obolibrary.org/obo/BSPO_0000054 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BSPO_0000054"/>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/BSPO_0000061 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/BSPO_0000061">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BSPO_0000070"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BSPO_0000054"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BSPO_0000113"/>
@@ -39937,7 +39943,7 @@ https://doi.org/10.1515/9783110264043
     <!-- http://purl.obolibrary.org/obo/BSPO_0000062 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/BSPO_0000062">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BSPO_0000070"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BSPO_0000054"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BSPO_0000097"/>
@@ -40298,8 +40304,8 @@ https://doi.org/10.1515/9783110264043
     <!-- http://purl.obolibrary.org/obo/BSPO_0000671 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/BSPO_0000671">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BSPO_0000070"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BSPO_0000071"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HAO_0000510"/>
         <obo:IAO_0000115>Anatomical margin that is located on the anterior side of a body or body part.</obo:IAO_0000115>
         <rdfs:label>anterior margin</rdfs:label>
     </owl:Class>
@@ -40315,8 +40321,7 @@ https://doi.org/10.1515/9783110264043
     <!-- http://purl.obolibrary.org/obo/BSPO_0000672 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/BSPO_0000672">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BSPO_0000070"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BSPO_0000072"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HAO_0000510"/>
         <obo:IAO_0000115>Anatomical margin that is located on the posterior side of the body or body part.</obo:IAO_0000115>
         <rdfs:label>posterior margin</rdfs:label>
     </owl:Class>
@@ -40332,8 +40337,8 @@ https://doi.org/10.1515/9783110264043
     <!-- http://purl.obolibrary.org/obo/BSPO_0000677 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/BSPO_0000677">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BSPO_0000070"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BSPO_0000077"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HAO_0000510"/>
         <obo:IAO_0000115>Anatomical margin that is located on the proximal region of the body or body part.</obo:IAO_0000115>
         <rdfs:label>proximal margin</rdfs:label>
     </owl:Class>
@@ -40349,8 +40354,7 @@ https://doi.org/10.1515/9783110264043
     <!-- http://purl.obolibrary.org/obo/BSPO_0000678 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/BSPO_0000678">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BSPO_0000070"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BSPO_0000078"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HAO_0000510"/>
         <obo:IAO_0000115>Anatomical margin that is located on the distal side of the body or body part.</obo:IAO_0000115>
         <rdfs:label>distal margin</rdfs:label>
     </owl:Class>
@@ -40366,8 +40370,7 @@ https://doi.org/10.1515/9783110264043
     <!-- http://purl.obolibrary.org/obo/BSPO_0000679 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/BSPO_0000679">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BSPO_0000070"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BSPO_0000079"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HAO_0000510"/>
         <obo:IAO_0000115>Anatomical margin that is located on the dorsal side of body or body part.</obo:IAO_0000115>
         <rdfs:label>dorsal margin</rdfs:label>
     </owl:Class>
@@ -40383,8 +40386,7 @@ https://doi.org/10.1515/9783110264043
     <!-- http://purl.obolibrary.org/obo/BSPO_0000682 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/BSPO_0000682">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BSPO_0000070"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BSPO_0000082"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HAO_0000510"/>
         <obo:IAO_0000115>Anatomical margin that is located on the lateral side of the body or body part.</obo:IAO_0000115>
         <rdfs:label>lateral margin</rdfs:label>
     </owl:Class>
@@ -40400,8 +40402,7 @@ https://doi.org/10.1515/9783110264043
     <!-- http://purl.obolibrary.org/obo/BSPO_0000683 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/BSPO_0000683">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BSPO_0000070"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BSPO_0000083"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HAO_0000510"/>
         <obo:IAO_0000115>Anatomical margin that is located on the medial side of the body or body part.</obo:IAO_0000115>
         <rdfs:label>medial margin</rdfs:label>
     </owl:Class>
@@ -40417,8 +40418,7 @@ https://doi.org/10.1515/9783110264043
     <!-- http://purl.obolibrary.org/obo/BSPO_0000684 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/BSPO_0000684">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BSPO_0000070"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BSPO_0000084"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HAO_0000510"/>
         <obo:IAO_0000115>Anatomical margin that is located on the ventral side of the body or body part.</obo:IAO_0000115>
         <rdfs:label>ventral margin</rdfs:label>
     </owl:Class>
@@ -40546,9 +40546,15 @@ https://doi.org/10.1515/9783110264043
     
 
 
-    <!-- http://purl.obolibrary.org/obo/LEPAO_68e6d7d3_0a5f_4817_99f8_2a5b326efcde -->
+    <!-- http://purl.obolibrary.org/obo/HAO_0000510 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/LEPAO_68e6d7d3_0a5f_4817_99f8_2a5b326efcde"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HAO_0000510"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/LEPAO_0000152 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/LEPAO_0000152"/>
     
 
 
